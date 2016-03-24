@@ -1,12 +1,43 @@
-html, head, body{
+html, head, body {
   margin: 0;
-  padding: 10;
+  padding: 0;
   background-color: #3d8ebe;
 }
 
-.burger-menu {
-  background-color: #18384c;
-  width: 10vw;
-  height: 15vh;
-  border-radius: 50%;
+/* Buggati Blue: #3d8ebe*/
+/* Darker Blue #18384c*/
+
+.burger {
+  background: #18384c;
+  display: inline-flex;
+  height: 55px;
+  margin-left: 20px;
+  margin-top: 40px;
+  position: relative;
+  width: 100px;
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  align-items: center;
+  justify-content: center;
+}
+
+.burger:before {
+  border-bottom: 35px solid #18384c;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
+}
+
+.burger-stripes {
+  color: #f9f9f9;
+  font-size: 200%;
+  -ms-transform: rotate(90deg) !important;
+  -webkit-transform: rotate(90deg) !important;
+  transform: rotate(90deg) !important;
 }

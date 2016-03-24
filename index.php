@@ -8,10 +8,14 @@
   <script src="js/bootstrap.js"></script>
 </head>
 <body>
-  <div class="burger-menu">
-    <span class="glyphicon glyphicon-menu-hamburger"></span>
+  <div class="menu-burger">
+    <div class="burger">
+      <span class="glyphicon glyphicon-menu-hamburger burger-stripes"
+    </div>
   </div>
   <div class="main-page">
+    <section>
+    </section>
   </div>
 </body>
 </html>
