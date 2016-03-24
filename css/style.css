@@ -12,13 +12,23 @@ body {
 /* Buggati Blue: #3d8ebe*/
 /* Darker Blue #18384c*/
 
+.logo {
+  position: absolute;
+  top: 25px;
+  width: 300px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
 .burger {
   background: #18384c;
   display: inline-flex;
   height: 55px;
   margin-left: 20px;
   margin-top: 40px;
-  position: relative;
+  position: absolute;
   width: 100px;
   -ms-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
@@ -26,7 +36,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 1;
+  z-index: 10;
 }
 
 .burger:before {
@@ -53,3 +63,35 @@ body {
 .carousel {
   margin-left: -10vw;
 }
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
