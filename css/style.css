@@ -4,6 +4,11 @@ html, head, body {
   background-color: #3d8ebe;
 }
 
+body {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Buggati Blue: #3d8ebe*/
 /* Darker Blue #18384c*/
 
@@ -21,6 +26,7 @@ html, head, body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  z-index: 1;
 }
 
 .burger:before {
@@ -41,4 +47,9 @@ html, head, body {
   -ms-transform: rotate(90deg) !important;
   -webkit-transform: rotate(90deg) !important;
   transform: rotate(90deg) !important;
+  z-index: 1;
+}
+
+.carousel {
+  margin-left: -10vw;
 }
