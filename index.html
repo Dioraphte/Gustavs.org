@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="logo">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/800px-Samsung_Logo.svg.png" width="300px"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/800px-Samsung_Logo.svg.png" width="300px">
   </div>
   <div class="menu-burger">
     <div class="burger">
@@ -23,14 +23,36 @@
       <li><img src="http://placehold.it/2000x700" alt=""></li>
       <li><img src="http://placehold.it/8000x2800" alt=""></li>
     </ul>
+    <div class="wide-box">
+      <div class="text-box">
+        <div style="margin: 20px;">
+          <h1>Hello world!</h1>
+          <p>Random text</p>
+        </div>
+      </div>
+      <div class="img-box">
+        ## image here ##
+      </div>
+    </div>
+    <div class="wide-box">
+      <div class="img-box">
+        ## Here image ##
+      </div>
+      <div class="text-box">
+        <div style="margin: 20px;">
+          <h1>Hello world!</h1>
+          <p>Random text</p>
+        </div>
+      </div>
+    </div>
   </div>
   <script>
     $(function() {
       $(".rslides").responsiveSlides();
     });
     $(".rslides").responsiveSlides({
-      pager: true,
-      nav: true,
+      pager: false,
+      nav: false,
       prevText: "Vorige",
       nextText: "Volgende",
       navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'

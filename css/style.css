@@ -22,6 +22,29 @@ body {
   z-index: 20;
 }
 
+.wide-box {
+  width: 100%;
+  height: 500px;
+  margin-top: 15px;
+}
+
+.text-box {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  float: left;
+}
+
+.img-box {
+  width: 50%;
+  max-width: 50%;
+  height: 100%;
+  float: left;
+  background-color: green;
+  text-align: center;
+}
+
 .burger {
   background: #18384c;
   display: inline-flex;
@@ -58,10 +81,6 @@ body {
   -webkit-transform: rotate(90deg) !important;
   transform: rotate(90deg) !important;
   z-index: 1;
-}
-
-.carousel {
-  margin-left: -10vw;
 }
 
 .rslides {
