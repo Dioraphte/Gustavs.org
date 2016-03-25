@@ -2,11 +2,8 @@ html, head, body {
   margin: 0;
   padding: 0;
   background-color: #3d8ebe;
-<<<<<<< HEAD
   overflow-x: hidden;
-=======
   font-family: Verdana, Arial, Helvetica, sans-serif;
->>>>>>> origin/master
 }
 
 body {
@@ -17,9 +14,6 @@ body {
 /* Buggati Blue: #3d8ebe*/
 /* Darker Blue #18384c*/
 
-<<<<<<< HEAD
-.menu-burger {
-=======
 .logo {
   position: absolute;
   top: 25px;
@@ -51,7 +45,6 @@ body {
   float: left;
   background-color: green;
   text-align: center;
->>>>>>> origin/master
 }
 
 .burger {
@@ -92,17 +85,17 @@ body {
   z-index: 1;
 }
 
-<<<<<<< HEAD
 .container-sidebar {
   height: 100vh;
   width: 15vw;
   background-color: #f9f9f9;
   position: absolute;
-  border-right: 1px solid #18384c;
+  /* border-right: 1px solid #18384c; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-left: -15vw;
+  z-index: 30;
 }
 
 .side-navbar {
@@ -115,7 +108,7 @@ body {
   font-family: monospace;
   font-size: 130%;
   cursor: pointer;
-  width: 10vw;
+  width: 13vw;
   text-align: center;
   padding: 5px;
   border-radius: 5px;
@@ -130,7 +123,7 @@ body {
   position: absolute;
   padding: 0 9vw;
   transform: translate(-150%, 0px);
-  transition: all 0.75s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #menu ul li {
@@ -141,9 +134,9 @@ body {
 #menu.active {
   -webkit-transform: translate(0%, 0px);
   transform: translate(0%, 0px);
-  transition: all 0.75s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-=======
+
 .rslides {
   position: relative;
   list-style: none;
@@ -175,4 +168,3 @@ body {
   width: 100%;
   border: 0;
   }
->>>>>>> origin/master
