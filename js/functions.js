@@ -12,7 +12,7 @@ $(document).ready(function(){
         $("#trigger").animate({marginLeft: "18vw"});
         $("#trigger").toggleClass("triggered");
       } else {
-        $("#trigger").animate({marginLeft: "2vw"});
+        $("#trigger").animate({marginLeft: "1.5vw"}, 500);
         $("#trigger").removeClass("triggered");
       }
     });
