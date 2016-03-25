@@ -5,11 +5,16 @@ $(document).ready(function(){
   });
   $("#trigger").click(function() {
     $("#menu").toggleClass("active");
-    $("#trigger").animate({
-      marginLeft: "20vw"
-    }, 500);
   });
-  $(".slided").click(function() {
-    $("#trigger").hide();
-  })
+  $(function() {
+    $("#trigger").click(function() {
+      if ( $("#trigger").hasClass("triggered") === false) {
+        $("#trigger").animate({marginLeft: "18vw"});
+        $("#trigger").toggleClass("triggered");
+      } else {
+        $("#trigger").animate({marginLeft: "2vw"});
+        $("#trigger").removeClass("triggered");
+      }
+    });
+  });
 });

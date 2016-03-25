@@ -68,7 +68,7 @@ body {
 
 .side-navbar {
   list-style-type: none;
-  margin-left: 70px;
+  margin-left: 80px;
 }
 
 .nav {
@@ -89,7 +89,7 @@ body {
 /* Side Swipe */
 #menu {
   position: absolute;
-  padding: 0 9vw;
+  padding: 0 8vw;
   transform: translate(-150%, 0px);
   transition: all 0.75s ease-in-out;
 }
