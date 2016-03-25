@@ -90,7 +90,7 @@ body {
   width: 15vw;
   background-color: #f9f9f9;
   position: absolute;
-  /* border-right: 1px solid #18384c; */
+  border-right: 2px solid #18384c;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -100,7 +100,7 @@ body {
 
 .side-navbar {
   list-style-type: none;
-  margin-left: 80px;
+  margin-left: 70px;
 }
 
 .nav {
@@ -169,3 +169,7 @@ body {
   width: 100%;
   border: 0;
   }
+
+.main-page {
+  margin-left: -10vw;
+}
