@@ -9,7 +9,7 @@ $(document).ready(function(){
   $(function() {
     $("#trigger").click(function() {
       if ( $("#trigger").hasClass("triggered") === false) {
-        $("#trigger").animate({marginLeft: "18vw"});
+        $("#trigger").animate({marginLeft: "22vw"});
         $("#trigger").toggleClass("triggered");
       } else {
         $("#trigger").animate({marginLeft: "1.5vw"}, 500);
