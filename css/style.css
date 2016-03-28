@@ -170,13 +170,8 @@ body {
 }
 
 .nav {
-<<<<<<< HEAD
   margin: 30px 0 30px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-=======
-  margin: 150px 0 150px;
-  font-family: monospace;
->>>>>>> origin/master
   font-size: 130%;
   cursor: pointer;
   width: 13vw;
