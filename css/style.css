@@ -221,16 +221,3 @@ body {
     font-size: 90%;
   }
 }
-
-/*Carousel*/
-
-.carousel {
-  border-bottom: 1px solid #18345c;
-  width: 100vw;
-  height: 400px;
-  background-color: #000;
-}
-
-.wide-skills-box {
-  margin: 0;
-}
