@@ -6,23 +6,8 @@ html, head, body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-body {
-  display: flex;
-  flex-direction: row;
-}
-
 /* Buggati Blue: #3d8ebe*/
 /* Darker Blue #18384c*/
-
-.logo {
-  position: absolute;
-  top: 25px;
-  width: 300px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  z-index: 20;
-}
 
 .wide-box {
   width: 100%;
@@ -108,6 +93,8 @@ body {
   border-radius: 20px;
 }
 
+/* Trigger CSS */
+
 .burger {
   background: #18384c;
   display: inline-flex;
@@ -146,49 +133,46 @@ body {
   z-index: 1;
 }
 
-.section-sidebar {
-  position: relative;
-}
+/* Navbar CSS Testing */
 
 .container-sidebar {
+  position: fixed;
+  display: flex;
   height: 100vh;
   width: 15vw;
   background-color: #f9f9f9;
-  position: fixed;
-  border-right: 2px solid #18384c;
-  display: flex;
+  border-right: 1px solid #18345c;
   align-items: center;
-  justify-content: flex-start;
-  margin-left: -15vw;
-  z-index: 30;
-  box-shadow: 5px 0px 20px #4c4c4c;
+  justify-content: center;
+  z-index: 1;
+  /*box-shadow: 5px 0 20px black;*/
+  padding: 20px;
+  margin: 0 0 0 -15vw;
 }
 
-.side-navbar {
-  list-style-type: none;
-  margin-left: 70px;
-}
+  .side-navbar {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 160%;
+  }
 
-.nav {
-  margin: 30px 0 30px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  margin: 150px 0 150px;
-  font-family: monospace;
-  font-size: 130%;
-  cursor: pointer;
-  width: 13vw;
-  text-align: center;
-  padding: 5px;
-  border-radius: 5px;
-}
+    .nav {
+      text-align: center;
+      margin: 4vh 0 4vh;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      color: #18345c;
+    }
 
-.nav:hover {
-  background-color: #18435c;
-  color: #f9f9f9;
-}
+    .nav:hover {
+      background-color: #18345c;
+      color: #f9f9f9;
+    }
 
 /* Side Swipe */
-#menu {
+
+/*#menu {
   position: absolute;
   padding: 0 10vw;
   transform: translate(-150%, 0px);
@@ -204,7 +188,8 @@ body {
   -webkit-transform: translate(0%, 0px);
   transform: translate(0%, 0px);
   transition: all 0.5s ease-in-out;
-}
+}*/
+
 /* Responsiveness */
 
 @media (max-width: 1104px) {
