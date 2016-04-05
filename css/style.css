@@ -61,6 +61,7 @@ html, head, body {
       height: 50px;
       width: auto;
       margin: 0 50px 20px;
+      cursor: pointer;
     }
 
 .img-box {
