@@ -12,7 +12,7 @@ $(document).ready(function() {
       $("#menu").addClass("menued");
       $("#menu").css("box-shadow", "5px 0 20px black");
     } else {
-      $("#menu").animate({marginLeft: "-15vw"});
+      $("#menu").animate({marginLeft: "-18vw"});
       $("#menu").removeClass("menued");
       $("#menu").css("box-shadow", "0 0 0 #fff");
     }
@@ -21,7 +21,7 @@ $(document).ready(function() {
   $(function() {
     $("#trigger").click(function() {
       if ( $("#trigger").hasClass("triggered") === false) {
-        $("#trigger").animate({marginLeft: "18vw"});
+        $("#trigger").animate({marginLeft: "21vw"});
         $("#trigger").addClass("triggered");
       } else {
         $("#trigger").animate({marginLeft: "1.5vw"}, 500);
