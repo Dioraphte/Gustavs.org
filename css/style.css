@@ -3,8 +3,8 @@ html, head, body {
   padding: 0;
   background-color: #3d8ebe;
   overflow-x: hidden;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-family: Verdana, Arial, Helvetica, sans-serif !important;
+  font-size: 110% !important;
 }
 
 /* Buggati Blue: #3d8ebe*/
@@ -93,6 +93,7 @@ html, head, body {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
+  font-size: 15px !important;
 }
 
 /* Trigger CSS */
@@ -155,7 +156,7 @@ html, head, body {
   .side-navbar {
     list-style-type: none;
     padding: 10px;
-    font-size: 160%;
+    font-size: 20px !important;
   }
 
     .nav {
